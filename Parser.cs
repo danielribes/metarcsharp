@@ -4,13 +4,6 @@ namespace metar
 {
     class Parser
     {
-        public Dictionary<string,string> ICAO = new Dictionary<string, string>
-        {
-            {"LELL", "Aeroport de Sabadell"},
-            {"LEGE", "Aeroport de Girona"},
-            {"LERS", "Aeroport de Reus"}
-        };
-
         public List<string> decode(string metar)
         {
             // 
@@ -18,7 +11,7 @@ namespace metar
             string[] metarValues = metar.Split(' ');
 
             // Aeroport segons OACI
-            finalMetar.Add(ICAO[metarValues[0]]);
+            finalMetar.Add(Airports.nameFromICAO(metarValues[0]));
 
             // Data
             finalMetar.Add(metarValues[1].Substring(0,2));
