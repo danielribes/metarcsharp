@@ -21,7 +21,7 @@ namespace metar
                 Console.WriteLine(value);
             }
 
-            Console.WriteLine("Pronostic a {0} pel dia {1} a les {2}:{3}", metarValues[0], metarValues[1], metarValues[2], metarValues[3]);
+            Console.WriteLine("Pronostic a {0} pel dia {1} a les {2}", metarValues[0], metarValues[1], metarValues[2]);
         }
     }
 }
