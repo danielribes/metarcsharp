@@ -9,6 +9,13 @@
 - [ ] Fer versió amb API per web.
 - [ ] La llista del Aeroports no ha de ser un Diccionari, s'ha de descarregar del CSV actualitzat i buscar alla l'aeroport via codi OACI. Treure el diccionari de la class Airports.cs ... més endavant veure rendiment del CSV versus un SQLite, i fer scripts necessaris per preparar tot això cada vegada que s'actualitza llista.
 
+### METAR de referencia
+
+```
+METAR  -> LELL 282230Z AUTO VRB02KT CAVOK 15/09 Q1017
+Tokens ->  0      1      2     3      4     5     6
+```
+
 ### Informació de referencia
 
 [Decodificar un METAR](ME030 5.1. informes meteo.pdf)
