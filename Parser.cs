@@ -36,6 +36,7 @@ namespace metar
             finalMetar.Add(parseWind(metarValues[3]));
 
             // Wind, check V : 050V130
+            // Wind, check G : 23009G30KT
             //metarValues[4]
 
 
