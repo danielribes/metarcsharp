@@ -24,5 +24,6 @@ Tokens ->  0      1      2     3      4     5     6
 
 [Open Data Airports](https://ourairports.com/data/)
 
+[Así es como se lee un METAR](https://metar-taf.com/es/explanation)
 
 
