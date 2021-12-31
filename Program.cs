@@ -9,7 +9,7 @@ namespace metar
         static void Main(string[] args)
         {                      
             // METAR Test
-            string metartest = "LELL 282230Z AUTO VRB02KT CAVOK 15/09 Q1017";
+            string metartest = "LELL 282230Z AUTO 25015G30KT CAVOK 15/09 Q1017";
 
             Parser metar = new Parser();
             var metarValues = metar.decode(metartest);
