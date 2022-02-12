@@ -5,7 +5,7 @@ namespace metar
 {
     class Place : IParser
     {
-        private static Dictionary<string,string> ICAO = new Dictionary<string, string>
+        private Dictionary<string,string> ICAO = new Dictionary<string, string>
         {
             {"LELL", "Aeroport de Sabadell"},
             {"LEGE", "Aeroport de Girona"},

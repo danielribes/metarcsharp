@@ -4,8 +4,6 @@ namespace metar
 {
     class Program
     {
-        
-
         static void Main(string[] args)
         {                      
             // METAR Test
