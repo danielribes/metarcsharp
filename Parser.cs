@@ -15,7 +15,9 @@ namespace metar
             //  Procesa tokens
             // ------------------------------
             // Aeroport segons OACI
-            finalMetar.Add(Airports.nameFromICAO(metarValues[0]));
+            Place aeroport = new Place();
+            finalMetar.Add(aeroport.Parse(metarValues[0]));
+            //finalMetar.Add(Airports.nameFromICAO(metarValues[0]));
 
             // Data
             finalMetar.Add(metarValues[1].Substring(0,2));
