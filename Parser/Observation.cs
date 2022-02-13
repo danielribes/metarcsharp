@@ -9,11 +9,16 @@ using System;
 
 namespace metar
 {
-    class Observation : IParser
+    class Observation : AbstractParser
     {
-        public string Parse(string code)
+        public override string Parse(string code)
         {
             return code;
+        }
+
+        protected override string Frase(string[] values)
+        {
+            throw new NotImplementedException();
         }
     }
 }
